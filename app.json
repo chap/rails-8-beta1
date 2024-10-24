@@ -4,10 +4,7 @@
       ],
     "environments": {
       "test": {
-        "scripts": {
-          "test-setup": "RACK_ENV=test rails db:migrate",
-          "test": "rails test"
-        }
+        "addons": ["heroku-postgresql:in-dyno"]
       }
     }
   }
