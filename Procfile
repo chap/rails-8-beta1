@@ -1,2 +1,2 @@
-web: bundle exec rackup --port "$PORT"
-release: rails db:migrate
+web: bundle exec rackup --port $PORT
+# release: rails db:migrate
