@@ -6,4 +6,4 @@ name = "BUNDLE_WITHOUT"
 value = "none"
 
 [[io.buildpacks.group]]
-uri = "https://cnb-shim.herokuapp.com/v1/heroku-community/chrome-for-testing&api=0.8"
+uri = "https://cnb-shim.herokuapp.com/v1/heroku-community/chrome-for-testing?api=0.8"
