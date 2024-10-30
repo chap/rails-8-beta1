@@ -5,7 +5,5 @@ schema-version = "0.2"
 name = "BUNDLE_WITHOUT"
 value = "none"
 
-[com.heroku.buildpacks.deb-packages]
-install = [
-  "ruby-chromedriver-helper"
-]
+[[io.buildpacks.group]]
+uri = "https://cnb-shim.herokuapp.com/v1/heroku-community/chrome-for-testing"
