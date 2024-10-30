@@ -8,5 +8,5 @@ value = "none"
 [com.heroku.buildpacks.deb-packages]
 install = [
   "chromium",
-  "chromium-chromedriver"
+  "chromium-driver"
 ]
