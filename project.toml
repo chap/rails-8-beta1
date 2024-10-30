@@ -5,5 +5,9 @@ schema-version = "0.2"
 name = "BUNDLE_WITHOUT"
 value = "none"
 
+[[io.buildpacks.build.env]]
+name = "ALLOW_EOL_SHIMMED_BUILDER"
+value = "1"
+
 [[io.buildpacks.group]]
 uri = "https://cnb-shim.herokuapp.com/v1/heroku-community/chrome-for-testing?api=0.8"
